@@ -1,0 +1,51 @@
+Step 1: Install Laravel 6.0
+composer create-project --prefer-dist laravel/laravel laravel_stripe
+
+Step 2: Install stripe-php Package
+composer require stripe/stripe-php
+
+Step 3: Set Secret of stripe Credential 
+
+STRIPE_KEY=pk_test_xxxxxxxxxxxxxxxxxxx 
+STRIPE_SECRET=sk_test_xxxxxxxxxxxxxx 
+
+
+Step 4: Create Routes
+Route::get('stripe', 'StripePaymentController@stripe');
+Route::post('stripe', 'StripePaymentController@stripePost')->name('stripe.post');
+
+Step 5: Create Controller File
+php artisan make:controller StripeController
+
+
+"private_test_key" => "sk_test_PDxXKzpb7WKk04ZSXnwAayk8",
+
+"public_test_key"  => "pk_test_iS5sLGz5CONWxJ8KHhBzHHvD"
+
+
+
+
+
+
+
+
+
+Job Title: Laravel Developer
+
+Job Responsibility:
+• Must have 2+ years of work experience in PHP and Laravel
+• Experienced in (PHP) Laravel Framework (we like to keep things up to date here v5)
+• Advanced knowledge of Restful concepts and APIs
+• Experienced in designing and maintaining MySQL databases (and motivated to keep queries optimized)
+• Knowledgeable in analytics (custom self-hosted & maintained)
+• Experienced with 3rd party APIs (Google, Facebook, Twitter, etc)
+• Experienced with Payment Method (Paypal, Payumoney, Paytabs, Ccavenue and Stripe)
+• Experienced with OAuth 2
+• Experience in object-oriented programming in PHP
+• Experience with Javascript, Jquery, Json, CSS, HTML5, and AJAX
+• Familiarity with source control principles and comfortable with Git.
+
+
+
+https://github.com/victorsteven/Laravel-Datatable-VueJS/blob/master/app/Http/Controllers/UsersController.php
+https://github.com/victorsteven/Laravel-Datatable-VueJS/blob/master/app/Http/Controllers/UsersController.php
